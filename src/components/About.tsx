@@ -3,7 +3,7 @@ import {motion} from 'framer-motion'
 const About = () => {
   return (
     
-    <section className='relative overflow-hidden flex flex-col gap-2 max-w-[1150px] m-auto p-[2.4rem] sm:p-[5.2rem] xl:p-[7.6rem] z-10' style={{flex: "flex-direction:row-reverse"}}>
+    <section className='flex flex-col gap-2 max-w-[1150px] m-auto p-[2.4rem] sm:p-[5.2rem] xl:p-[7.6rem] z-10'>
         
         <div className='flex items-center gap-4 mb-[2.4rem]'>
             <h3>
