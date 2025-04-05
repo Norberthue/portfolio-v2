@@ -1,8 +1,23 @@
+import { useEffect, useRef } from 'react'
 import Reveal from './utils/Reveal'
+import { useInView } from 'framer-motion'
 
-const Projects = () => {
-  return (
-    <section className='relative flex flex-col gap-2 max-w-[1150px] m-auto p-[2.4rem] sm:p-[5.2rem] xl:p-[7.6rem] z-10'> 
+interface ProjectsProps {
+    setSectionActive: (section: string) => void;
+}
+
+const Projects = ({setSectionActive}:ProjectsProps) => {
+    const ref = useRef(null)
+    const isInView = useInView(ref, { margin: "-200px 0px 0px 0px"})
+
+    useEffect(() => {
+        if (isInView) {
+            setSectionActive('projects')
+        }
+    },[isInView])
+
+    return (
+    <section ref={ref} id='projects' className='relative flex flex-col gap-2 max-w-[1150px] m-auto p-[2.4rem] sm:p-[5.2rem] xl:p-[7.6rem] z-10'> 
         <div className='flex items-center gap-4 mb-[2.4rem]'>
             <div className='h-[0.5px] w-full bg-[#b4b4b450]'></div>
             <h3>

@@ -1,10 +1,23 @@
+import { useEffect, useRef } from 'react'
 import Reveal from './utils/Reveal'
-import {motion} from 'framer-motion'
-const About = () => {
-  return (
-    
-    <section className='flex flex-col gap-2 max-w-[1150px] m-auto p-[2.4rem] sm:p-[5.2rem] xl:p-[7.6rem] z-10'>
-        
+import { useInView } from 'framer-motion'
+
+interface AboutProps {
+    setSectionActive: (section: string) => void;
+}
+
+const About = ({setSectionActive}: AboutProps) => {
+    const ref = useRef(null)
+    const isInView = useInView(ref , { margin: "200px 0px 0px 0px"})
+
+    useEffect(() => {
+        if (isInView) {
+            setSectionActive('about')
+        }
+    },[isInView])
+
+    return (
+    <section ref={ref} id='about' className='flex flex-col gap-2 max-w-[1150px] m-auto p-[2.4rem] sm:p-[5.2rem] xl:p-[7.6rem] z-10'>
         <div className='flex items-center gap-4 mb-[2.4rem]'>
             <h3>
             <Reveal > 

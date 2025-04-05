@@ -35,9 +35,13 @@ const Header = () => {
                 <i className="fa-brands fa-codepen text-xl opacity-50 hover:text-yellow-200 hover:opacity-100"></i>
             </motion.a>
         </div>
-        <button className='cursor-pointer border-2 pl-4 pr-4 pt-2 pb-2 sm:text-lg rounded-lg border-yellow-200 text-yellow-200 hover:text-black hover:bg-yellow-200 duration-200 transition-colors'>
+        <motion.button 
+        initial={{y: -80}}
+        animate={{y:0}}
+        transition={{duration: 0.4, type:'spring', damping:10, bounce:0.25, delay:0.3}}
+        className='cursor-pointer border-2 pl-4 pr-4 pt-2 pb-2 sm:text-lg rounded-lg border-yellow-200 text-yellow-200 hover:text-black hover:bg-yellow-200 duration-200 transition-colors'>
             My resume
-        </button>
+        </motion.button>
     </header>
   )
 }
