@@ -8,7 +8,7 @@ interface ProjectsProps {
 
 const Projects = ({setSectionActive}:ProjectsProps) => {
     const ref = useRef(null)
-    const isInView = useInView(ref, { margin: "-200px 0px 0px 0px"})
+    const isInView = useInView(ref, {amount: 0.5})
 
     useEffect(() => {
         if (isInView) {
@@ -38,7 +38,7 @@ const Projects = ({setSectionActive}:ProjectsProps) => {
                 </Reveal>
                 <Reveal width='100%'>
                   <div className='flex items-center gap-4 '>
-                      <p className='text-xl font-extrabold w-[180px]'>UCG-Site</p>
+                      <p className='text-xl font-extrabold '>UltraClothGang</p>
                       <div className='h-[0.5px] w-full bg-[#b4b4b450]'></div>
                       <a href='https://github.com/Norberthue/react-cloth-site' target='_blank'>
                         <i className="fa-brands fa-github text-xl opacity-50 hover:text-yellow-200 hover:opacity-100"></i>
@@ -67,7 +67,7 @@ const Projects = ({setSectionActive}:ProjectsProps) => {
                 </Reveal>
                 <Reveal width='100%'>
                   <div className='flex items-center gap-4 '>
-                      <p className='text-xl font-extrabold '>HippoPomoTodo.App</p>
+                      <p className='text-xl font-extrabold '>HippoPomoTodo</p>
                       <div className='h-[0.5px] w-full bg-[#b4b4b450]'></div>
                       <a href='https://github.com/Norberthue/pomo-todo-app' target='_blank'>
                         <i className="fa-brands fa-github text-xl opacity-50 hover:text-yellow-200 hover:opacity-100"></i>
@@ -81,7 +81,7 @@ const Projects = ({setSectionActive}:ProjectsProps) => {
                   <span className='text-yellow-200 text-lg'>React - Html - Tailwind - FireBase - TypeScript</span>
                 </Reveal>
                 <Reveal>
-                  <p className='text-sm sm:text-md font-extralight'>A website with login & register functionality for managing projects and tasks. You can create multiple templates for your own projects.
+                  <p className='text-sm sm:text-md font-extralight'>A website with login & register functionality for managing projects and tasks. Where you can create multiple templates for your own projects.
                     Inside your project you can create columns and tasks with timer and description. <a href='https://hippopomotodoapp.netlify.app/' target='_blank'
                       className='text-yellow-200 duration-200 underline-offset-4 hover:underline'>Show More {'>'} </a></p>
                 </Reveal>

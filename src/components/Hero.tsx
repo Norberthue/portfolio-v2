@@ -8,7 +8,7 @@ interface HeroProps {
 
 const Hero = ({setSectionActive}: HeroProps) => {
     const ref = useRef(null)
-    const isInView = useInView(ref)
+    const isInView = useInView(ref, {amount: 0.5})
 
     useEffect(() => {
         if (isInView) {

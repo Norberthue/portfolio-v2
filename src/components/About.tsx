@@ -8,7 +8,7 @@ interface AboutProps {
 
 const About = ({setSectionActive}: AboutProps) => {
     const ref = useRef(null)
-    const isInView = useInView(ref , { margin: "200px 0px 0px 0px"})
+    const isInView = useInView(ref , {amount: 0.5})
 
     useEffect(() => {
         if (isInView) {
@@ -80,7 +80,9 @@ const About = ({setSectionActive}: AboutProps) => {
                             <span className='bg-[#232323] hover:bg-yellow-200 hover:text-black duration-200 p-2 rounded-2xl'>TypeScript</span>
                             <span className='bg-[#232323] hover:bg-yellow-200 hover:text-black duration-200 p-2 rounded-2xl'>TailwindCss</span>
                             <span className='bg-[#232323] hover:bg-yellow-200 hover:text-black duration-200 p-2 rounded-2xl'>FireBase</span>
+                            <span className='bg-[#232323] hover:bg-yellow-200 hover:text-black duration-200 p-2 rounded-2xl'>FramerMotion</span>
                             <span className='bg-[#232323] hover:bg-yellow-200 hover:text-black duration-200 p-2 rounded-2xl'>Figma</span>
+                            <span className='bg-[#232323] hover:bg-yellow-200 hover:text-black duration-200 p-2 rounded-2xl'>Jest</span>
                         </div>
                     </Reveal>
                 </div>

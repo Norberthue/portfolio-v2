@@ -10,7 +10,7 @@ const Navbar = ({sectionActive}: NavbarProps) => {
     initial={{x: -100}}
     animate={{x:0}}
     transition={{duration: 0.8, ease:'easeInOut'}}
-    className='flex flex-col h-[100vh]  bg-[#080808] items-center pr-2 pt-5 sticky top-0  z-20 '>
+    className='flex flex-col h-screen  bg-[#080808] items-center pr-2 pt-5 sticky top-0 left-0  z-20 '>
         <div className='text-2xl bg-[#111] pl-2 pr-2  pb-2 rounded-lg font-semibold mb-5'>
             <p>N<span className='text-amber-200 text-4xl'>.</span></p>
         </div>
