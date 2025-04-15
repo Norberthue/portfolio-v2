@@ -1,5 +1,5 @@
 import { useInView } from 'framer-motion';
-import React, { useEffect, useRef } from 'react'
+import { useEffect, useRef } from 'react'
 import Reveal from './utils/Reveal';
 
 interface ContactProps {
