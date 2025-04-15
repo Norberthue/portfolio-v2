@@ -32,7 +32,7 @@ const Projects = ({setSectionActive}:ProjectsProps) => {
                 <Reveal width='100%'>
                   <a href='https://ucg-site.netlify.app/' target='_blank'>
                     <div className='relative w-full bg-[#232323] group rounded-lg aspect-[16/9] overflow-hidden'>
-                        <img className='cursor-pointer absolute bottom-0 left-[50%] group-hover:w-[90%] group-hover:rotate-2 -translate-x-[50%] translate-y-[5%] w-[85%] duration-200' src='./src/assets/images/ucg.png'></img>
+                        <img className='cursor-pointer absolute bottom-0 left-[50%] group-hover:w-[90%] group-hover:rotate-2 -translate-x-[50%] translate-y-[5%] w-[85%] duration-200' src='./images/ucg.png'></img>
                     </div>
                   </a>
                 </Reveal>
@@ -61,7 +61,7 @@ const Projects = ({setSectionActive}:ProjectsProps) => {
                 <Reveal width='100%'>
                     <a href='https://hippopomotodoapp.netlify.app/' target='_blank'>
                         <div className='relative w-full bg-[#232323] group rounded-lg aspect-[16/9] overflow-hidden'>
-                            <img className='cursor-pointer absolute bottom-0 left-[50%] group-hover:w-[90%] group-hover:rotate-2 -translate-x-[50%] translate-y-[5%] w-[85%] duration-200' src='./src/assets/images/pomotodo.png'></img>
+                            <img className='cursor-pointer absolute bottom-0 left-[50%] group-hover:w-[90%] group-hover:rotate-2 -translate-x-[50%] translate-y-[5%] w-[85%] duration-200' src='./images/pomotodo.png'></img>
                         </div>
                     </a>
                 </Reveal>
@@ -91,7 +91,7 @@ const Projects = ({setSectionActive}:ProjectsProps) => {
                 <Reveal width='100%'>
                 <a href='https://the-poke-site.netlify.app/' target='_blank'>
                   <div className='relative w-full bg-[#232323] group rounded-lg aspect-[16/9] overflow-hidden'>
-                      <img className='cursor-pointer absolute bottom-0 left-[50%] group-hover:w-[90%] group-hover:rotate-2 -translate-x-[50%] translate-y-[5%] w-[85%] duration-200' src='./src/assets/images/PokeApi.png'></img>
+                      <img className='cursor-pointer absolute bottom-0 left-[50%] group-hover:w-[90%] group-hover:rotate-2 -translate-x-[50%] translate-y-[5%] w-[85%] duration-200' src='./images/pokeApi.png'></img>
                   </div>
                 </a>
                 </Reveal>
@@ -119,7 +119,7 @@ const Projects = ({setSectionActive}:ProjectsProps) => {
                 <Reveal width='100%'>
                     <a href='https://simplewood.netlify.app/' target='_blank'>
                         <div className='relative w-full bg-[#232323] group rounded-lg aspect-[16/9] overflow-hidden'>
-                            <img className='cursor-pointer absolute bottom-0 left-[50%] group-hover:w-[90%] group-hover:rotate-2 -translate-x-[50%] translate-y-[5%] w-[85%] duration-200' src='./src/assets/images/simplewood.png'></img>
+                            <img className='cursor-pointer absolute bottom-0 left-[50%] group-hover:w-[90%] group-hover:rotate-2 -translate-x-[50%] translate-y-[5%] w-[85%] duration-200' src='./images/simplewood.png'></img>
                         </div>
                     </a>
                 </Reveal>
