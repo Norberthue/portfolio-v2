@@ -37,8 +37,8 @@ const Projects = ({setSectionActive}:ProjectsProps) => {
                   </a>
                 </Reveal>
                 <Reveal width='100%'>
-                  <div className='flex items-center gap-4 '>
-                      <p className='text-xl font-extrabold '>UltraClothGang</p>
+                  <div className='flex items-center gap-4'>
+                      <p className='text-xl font-extrabold'>UltraClothGang</p>
                       <div className='h-[0.5px] w-full bg-[#b4b4b450]'></div>
                       <a href='https://github.com/Norberthue/react-cloth-site' target='_blank'>
                         <i className="fa-brands fa-github text-xl opacity-50 hover:text-yellow-200 hover:opacity-100"></i>
