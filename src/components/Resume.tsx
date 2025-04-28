@@ -1,8 +1,7 @@
-
 const Resume = () => {
   return (
     <div>
-        <iframe src="./images/Resume ENG.pdf" className="w-screen h-screen"  />
+        <iframe src="./images/ResumeENG.pdf" className="w-screen h-screen"/>
     </div>
   )
 }

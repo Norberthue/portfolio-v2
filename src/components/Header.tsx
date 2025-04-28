@@ -35,7 +35,7 @@ const Header = () => {
                 <i className="fa-brands fa-codepen text-xl opacity-50 hover:text-yellow-200 hover:opacity-100"></i>
             </motion.a>
         </div>
-            <Link to={'resume'} target="_blank" rel="noopener noreferrer">
+            <Link to={'resume'} target="_blank" >
                 <motion.button 
                 initial={{y: -80}}
                 animate={{y:0}}
