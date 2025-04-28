@@ -1,5 +1,4 @@
 import { useState } from "react"
-
 import Resume from "./components/Resume"
 import { Routes, Route} from 'react-router-dom'
 import MainPage from "./components/MainPage"
