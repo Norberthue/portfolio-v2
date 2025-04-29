@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import { Link } from 'react-router-dom'
+
 const Header = () => {
     
 
@@ -35,7 +35,7 @@ const Header = () => {
                 <i className="fa-brands fa-codepen text-xl opacity-50 hover:text-yellow-200 hover:opacity-100"></i>
             </motion.a>
         </div>
-            <Link to={'resume'} target="_blank" >
+            <a href='https://norbert-koka-resume.netlify.app/' target="_blank" >
                 <motion.button 
                 initial={{y: -80}}
                 animate={{y:0}}
@@ -43,7 +43,7 @@ const Header = () => {
                 className='cursor-pointer border-2 pl-4 pr-4 pt-2 pb-2 sm:text-lg rounded-lg border-yellow-200 text-yellow-200 hover:text-black hover:bg-yellow-200 duration-200 transition-colors'>
                     My resume
                 </motion.button>
-            </Link>        
+            </a>        
     </header>
   )
 }
