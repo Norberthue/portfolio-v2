@@ -10,7 +10,7 @@ const Header = () => {
             initial={{y: -30}}
             animate={{y:0}}
             transition={{duration: 0.4, ease:'easeInOut'}}
-            target="_blank"  href="https://www.linkedin.com">
+            target="_blank"  href="https://www.linkedin.com/in/norbert-koka-9b1a82307/">
                 <i className="fa-brands fa-linkedin text-xl opacity-50 hover:text-yellow-200 hover:opacity-100"></i>
             </motion.a>
             <motion.a 
