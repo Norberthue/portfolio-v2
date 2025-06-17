@@ -25,7 +25,7 @@ const Hero = ({setSectionActive}: HeroProps) => {
             <p className="text-2xl sm:text-4xl">I'm a <span className="text-yellow-200 font-extrabold">Front End Developer</span></p>
         </Reveal>
         <Reveal>
-            <p className="text-lg sm:text-xl font-extralight">I'm currently on my journey to become a front-end-developer. Checkout my cool projects. I also love making video games . Let's connect!</p>
+            <p className="text-lg sm:text-xl font-extralight">I'm currently on my journey to becoming  a front-end-developer. Check out my cool projects. I also love making video games . Let's connect!</p>
         </Reveal>
         <Reveal>
             <a href='#contact'>

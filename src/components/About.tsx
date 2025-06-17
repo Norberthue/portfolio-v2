@@ -83,6 +83,8 @@ const About = ({setSectionActive}: AboutProps) => {
                             <span className='bg-[#232323] hover:bg-yellow-200 hover:text-black duration-200 p-2 rounded-2xl'>FramerMotion</span>
                             <span className='bg-[#232323] hover:bg-yellow-200 hover:text-black duration-200 p-2 rounded-2xl'>Figma</span>
                             <span className='bg-[#232323] hover:bg-yellow-200 hover:text-black duration-200 p-2 rounded-2xl'>Jest</span>
+                            <span className='bg-[#232323] hover:bg-yellow-200 hover:text-black duration-200 p-2 rounded-2xl'>Node.js</span>
+                            <span className='bg-[#232323] hover:bg-yellow-200 hover:text-black duration-200 p-2 rounded-2xl'>Express.js</span>
                         </div>
                     </Reveal>
                 </div>
